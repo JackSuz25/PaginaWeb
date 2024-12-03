@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css2?family=Oswald&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap);
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Yanone Kaffeesatz;
+}
+
+footer{
+ 	width: 100%;
+ 	background: #A0CFCC;
+ 	color: black;
+
+ }
+
+ a:link {
+ text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.container-footer-all{
+ 	width: 95%;
+ 	max-width: 1400px;
+ 	margin: auto;
+ 	padding: 20px;
+ }
+
+
+ .container-body{
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+
+
+ .colum1{
+ 	max-width: 400px;
+ }
+
+  .colum1 h1{
+ 	font-size: 30px;
+ }
+
+ .colum1 p{
+ 	font-size: 20px;
+ 	margin-top: 20px;
+ }
+
+
+ .colum2{
+ 	max-width: 400px;
+
+ }
+
+
+.colum2 h1{
+ 	font-size: 20px;
+ }
+
+
+  .row{
+ 	margin-top:20px;
+ 	display: flex;
+ }
+
+
+.row img{
+ 	width: 36px;
+ 	height: 36px;
+ }
+
+
+ .row label{
+ 	margin-top: 10px;
+ 	margin-left: 20px;
+ }
+
+
+ .colum3{
+ 	max-width: 300px;
+ }
+
+ .colum3 h1{
+ 	font-size: 20px;
+ }
+
+
+ .row2{
+ 	margin-top: 20px;
+ 	display: flex;
+ }
+
+
+ .row2 img{
+ 	width: 36px;
+ 	height: 36px;
+ }
+
+
+ .row2 label{
+ 	margin-top: 10px;
+ 	margin-left: 20px;
+ 	max-width: 200px;
+ }
+
+
+.container-footer{
+	width: 100%;
+	background: #000000;
+	padding: 20px;
+}
+
+.footer{
+	max-width: 1400px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 2px;
+}
+
+.copyright{
+	color: white;
+}
+
+
+.copyright a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.information{
+	color: white;
+}
+
+
+.information a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+h1{
+    color:rgb(255, 255, 255);
+    font-weight: normal;
+    font-family: Yanone Kaffeesatz;
+	text-align: center;
+}

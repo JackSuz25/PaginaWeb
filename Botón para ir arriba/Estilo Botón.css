@@ -1,0 +1,24 @@
+/*Boton flotante para ir arriba*/
+#button-up{
+    width: 40px;
+    height: 40px;
+    background: #1a3d96;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: all 300ms case;
+    transform: scale();
+}
+
+#button-up:hover{
+    transform: scale(1.1);
+    border-color: rgba(0,0,0,0.1);
+}
